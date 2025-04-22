@@ -5,3 +5,4 @@ deepface
 redis
 numpy
 scikit-learn
+tf-keras
