@@ -163,7 +163,7 @@ def get_status():
 
 def start_server():
     threading.Thread(target=analyze_stream, daemon=True).start()
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    uvicorn.run(app, host="0.0.0.0", port=8081)
 
 if __name__ == "__main__":
     start_server()
